@@ -11,18 +11,18 @@
     <br>
     <section>
       <!--etiqueta para los audios  -->
-      <audio id="musica" src="audio/cancion.mp3 " >
+      <audio id="musica" src="audio/cancion.mp3 " ontimeupdate="estado();">
 
       </audio>
         <!-- Dentro de la etiqueta p se encuentran los elementos -->
         <p id="botones" align="center">
 
-            <button id="play" type="button" onclick="reproducir();move(onclick); move();">REPRODUCIR</button>
+            <button id="play" type="button" onclick="reproducir();" onclick="estado()">REPRODUCIR</button>
             <button type="button" onclick="pausa(); ">PAUSA</button>
             <button type="button" onclick="parar();">PARAR</button>
             <button type="button" onclick="subir();">SUBIR</button>
             <button type="button" onclick="bajar();">BAJAR</button>
-            <button type="button" onclick="move()">AVANZAR </button>
+
 
         </p>
 

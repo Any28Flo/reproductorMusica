@@ -43,12 +43,7 @@ function bajar (){
 
 
 }
-function avanzar() {
-  var sonido = document.getElementById("musica");
-  var avanzar= musica.currentTime;
-  console.log(avanzar);
 
-}
 function estado() {
 
 
@@ -57,8 +52,8 @@ function estado() {
     progreso.style.width = size + "px";
   } else {
     progreso.style.width = "0px";
-  //  play.value = "Play";
-    clearInterval(loop);
+
+
   }
 }
 function move(event) {
