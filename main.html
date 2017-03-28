@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reproductor</title>
+    <link rel="stylesheet" href="css/estilos.css" type="text/css" media="all" />
+  </head>
+  <body background="img/backgroud.jpg">
+    <!-- Dentro de de section irá el reproductor -->
+    <br>
+    <br>
+    <section>
+      <!--etiqueta para los audios  -->
+      <audio id="musica" src="audio/cancion.mp3 " >
+
+      </audio>
+        <!-- Dentro de la etiqueta p se encuentran los elementos -->
+        <p id="botones" align="center">
+
+            <button id="play" type="button" onclick="reproducir();move(onclick); move();">REPRODUCIR</button>
+            <button type="button" onclick="pausa(); ">PAUSA</button>
+            <button type="button" onclick="parar();">PARAR</button>
+            <button type="button" onclick="subir();">SUBIR</button>
+            <button type="button" onclick="bajar();">BAJAR</button>
+            <button type="button" onclick="move()">AVANZAR </button>
+
+        </p>
+
+
+    </section>
+    <br>
+    <!-- Div para mostrar el estado de la cancion  -->
+    <section>
+        <div id ="barra"  >
+        <div id="progreso" ></div>
+      </div>
+    </section>
+    <script src="javascripts/main.js"></script>
+  </body>
+</html>

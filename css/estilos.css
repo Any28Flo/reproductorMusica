@@ -1,0 +1,14 @@
+#barra {
+  float: left;
+  width: 400px;
+  height: 16px;
+  padding: 2px;
+  margin: 2px 5px;
+  border: 1px solid #CCCCCC;
+  background: #EEEEEE;
+}
+#progreso {
+  width: 0px;
+  height: 16px;
+  background: rgba(0,0,150,.2);
+}
